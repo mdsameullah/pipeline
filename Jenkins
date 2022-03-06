@@ -1,0 +1,15 @@
+pipeline{
+agent any
+stages{
+stage('Gitcheckout'){
+steps{
+
+}
+}
+stage('Example build'){
+steps{
+echo "Hellow echo world"
+}
+}
+}
+}
